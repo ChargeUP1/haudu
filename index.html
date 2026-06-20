@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>buy.html</title>
+    
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Complete Order</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#0b0b0b;
+color:white;
+padding:30px;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+display:flex;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.box{
+flex:1;
+min-width:320px;
+background:#111;
+padding:25px;
+border-radius:18px;
+border:1px solid rgba(212,175,55,.3);
+}
+
+.box h2{
+margin-bottom:20px;
+color:#d4af37;
+}
+
+input,
+select{
+width:100%;
+padding:14px;
+margin:10px 0;
+background:#1b1b1b;
+border:none;
+border-radius:10px;
+color:white;
+}
+
+.product{
+display:flex;
+align-items:center;
+gap:15px;
+margin-bottom:20px;
+}
+
+.product img{
+width:90px;
+height:90px;
+border-radius:10px;
+object-fit:cover;
+}
+
+.price{
+font-size:26px;
+font-weight:bold;
+color:#d4af37;
+margin:15px 0;
+}
+
+.buy-btn{
+width:100%;
+padding:14px;
+border:none;
+border-radius:50px;
+background:linear-gradient(90deg,#d4af37,#b8860b);
+font-weight:bold;
+font-size:16px;
+cursor:pointer;
+transition:.4s;
+}
+
+.buy-btn:hover{
+transform:scale(1.03);
+box-shadow:0 0 20px rgba(212,175,55,.4);
+}
+
+</style>
+</head>
+
+<body>
+
+
+<div class="box">
+
+
+
+<div class="product">
+
+  <img class="product-img" src="https://i.ibb.co/ZRLbwWWk/Chat-GPT-Image-Jun-19-2026-02-32-43-PM.png">
+
+  <div class="product-card">
+
+    <h3>AirPods Pro 2</h3>
+    <p class="desc">Crystal clear sound</p>
+
+    <hr>
+
+    <div class="price-line">Product Price: <span>RS 999</span></div>
+    <div class="price-line">Delivery: <span>RS 200</span></div>
+
+    <div class="total">
+      Total: RS 1199
+    </div>
+
+  </div>
+</div>
+
+<style>
+.product{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  background: #000;
+  padding: 15px;
+  border-radius: 16px;
+  border: 1px solid #d4af37;
+  max-width: 600px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.6);
+}
+
+.product-img{
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 2px solid #d4af37;
+}
+
+.product-card {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  flex: 1;
+}
+
+.product-card h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #d4af37;
+  letter-spacing: 1px;
+}
+
+.desc {
+  margin: 6px 0 12px;
+  color: #ccc;
+  font-size: 14px;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: #333;
+  margin: 10px 0;
+}
+
+.price-line {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px 0;
+  color: #ddd;
+  font-size: 14px;
+}
+
+.price-line span {
+  color: #fff;
+  font-weight: bold;
+}
+
+.total {
+  margin-top: 12px;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  background: linear-gradient(135deg, #d4af37, #f5d76e);
+  border-radius: 10px;
+}
+</style>
+
+<form id="orderForm">
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Order Page</title>
+</head>
+<body>
+
+<h2 class="title">Place Your Order</h2>
+
+<style>
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  color: #d4af37; /* gold */
+  background: #0b0b0b; /* black */
+  padding: 10px 18px;
+  border-radius: 12px;
+  display: inline-block;
+  letter-spacing: 1px;
+  border: 1px solid #d4af37;
+  box-shadow: 0 8px 20px rgba(212, 175, 55, 0.25);
+  text-transform: uppercase;
+}
+</style>
+
+<input id="name" placeholder="Enter Name"><br><br>
+<input id="phone" placeholder="Enter Phone"><br><br>
+<input id="product" placeholder="Enter Product"><br><br>
+
+<button onclick="sendWhatsApp()" class="gold-btn">
+  Complete Order
+</button>
+
+<style>
+.gold-btn {
+  padding: 12px 28px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #0b0b0b;
+
+  background: linear-gradient(135deg, #d4af37, #f5d76e);
+  border: 2px solid #d4af37;
+  border-radius: 12px;
+
+  box-shadow: 0 10px 25px rgba(212, 175, 55, 0.35);
+  transition: all 0.3s ease;
+}
+
+.gold-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px rgba(212, 175, 55, 0.5);
+}
+
+.gold-btn:active {
+  transform: scale(0.98);
+}
+</style>
+
+<script>
+function sendWhatsApp() {
+
+  let name = document.getElementById("name").value;
+  let phone = document.getElementById("phone").value;
+  let product = document.getElementById("product").value;
+
+  if(!name || !phone || !product){
+    alert("Please fill all fields first!");
+    return;
+  }
+
+  let message =
+`🛒 NEW ORDER RECEIVED
+---------------------
+Name: ${name}
+Phone: ${phone}
+Product: ${product}
+---------------------`;
+
+  let whatsappNumber = "447915007157"; // 🔴 yahan apna number dalna (92 format)
+
+  let url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+
+  window.open(url, "_blank");
+}
+</script>
+
+</body>
+</html>
+
+</button>
+
+</form>
+
+
+
+
+
+</div>
+
+</div>
+
+</script>
+</body>
+</html>
+    
+  </body>
+  
+</html>
